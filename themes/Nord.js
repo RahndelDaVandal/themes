@@ -21,7 +21,7 @@ const nord = {
   nord13: "#EBCB8B",
   nord14: "#A3BE8C",
   nord15: "#B48EAD",
-  nordC: "RGBA(216, 222, 233, 0.75)"
+  nordC: "RGBA(216, 222, 233, 0.9)"
 };
 
 
