@@ -20,7 +20,8 @@ const nord = {
   nord12: "#D08770",
   nord13: "#EBCB8B",
   nord14: "#A3BE8C",
-  nord15: "#B48EAD"
+  nord15: "#B48EAD",
+  nordC: "#BBBBBB"
 };
 
 
@@ -44,7 +45,7 @@ const colors = {
 
   backgroundColor: nord.nord0,
   foregroundColor: nord.nord4,
-  cursorColor: nord.nord4,
+  cursorColor: nord.nordC,
 };
 
 t.prefs_.set('color-palette-overrides', [
@@ -66,7 +67,6 @@ t.prefs_.set('color-palette-overrides', [
     colors.lightWhite
 ]);
 
-//t.prefs_.set('cursor-color', colors.cursorColor);
-t.prefs_.set('cursor-color', "#BBBBBB");
+t.prefs_.set('cursor-color', colors.cursorColor);
 t.prefs_.set('foreground-color', colors.foregroundColor);
 t.prefs_.set('background-color', colors.backgroundColor);
